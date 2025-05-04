@@ -1,5 +1,4 @@
-# GPT-4 and Rule-Based Chatbot Application
-
+# CustomerSupport AI ChatBot
 This project is all about building a chatbot application, and it's got two main ways of doing its thing. First, there's a GPT-4 powered chatbot, which uses the Cheapest GPT-4 Turbo API through RapidAPI. Then, there's a rule-based chatbot. The rule-based one is there to handle specific customer support scenarios and serves as a backup for GPT-4.
 
 ## 1. Introduction
