@@ -1,6 +1,6 @@
 # GPT-4 and Rule-Based Chatbot Application
 
-This project is all about building a chatbot application, and it's got two main ways of doing its thing. First, there's a GPT-4 powered chatbot, which uses the Cheapest GPT-4 Turbo API through RapidAPI. Then, there's a rule-based chatbot. The rule-based one is there to handle specific customer support scenarios and serves as a backup when the GPT-4 chatbot isn't the best fit.
+This project is all about building a chatbot application, and it's got two main ways of doing its thing. First, there's a GPT-4 powered chatbot, which uses the Cheapest GPT-4 Turbo API through RapidAPI. Then, there's a rule-based chatbot. The rule-based one is there to handle specific customer support scenarios and serves as a backup for GPT-4.
 
 ## 1. Introduction
 
@@ -102,14 +102,14 @@ The class diagram illustrates the relationships and interactions between the cla
 The following tools and environment were used to develop this application:
 
 * **Programming Language:** Python 3.x
-* **IDE:** (Specify the IDE you used, e.g., PyCharm, VS Code, etc.)
+* **IDE:** (e.g., PyCharm, VS Code, etc.)
 * **Libraries:**
     * `requests`: This library was used for sending HTTP requests to the GPT-4 API.
     * `json`: This library was used for processing JSON data.
     * `abc`: This module was used for defining abstract base classes.
     * `unittest`: This library was used for conducting unit tests.
 * **API:** Cheapest GPT-4 Turbo API via RapidAPI
-* **Operating System:** (Specify the OS, e.g., Windows 10, macOS Monterey, Ubuntu 20.04, etc.)
+* **Operating System:** (e.g., Windows 10, macOS Monterey, Ubuntu 20.04, etc.)
 * **Version Control:** Git (and GitHub)
 
 ### 4.2 Steps Followed During Development
