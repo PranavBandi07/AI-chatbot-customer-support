@@ -187,9 +187,7 @@ To make sure the application was high-quality and worked the way it was supposed
 * **System Test Results:** The application successfully switched between the GPT-4 chatbot and the rule-based chatbot as it was designed to do. The chat history was saved and loaded without any errors, which shows that the application is able to maintain conversational context.
 * **Usability Test Results:** The application was generally well-received by the users who tested it. They found it to be easy to use. Some users suggested that the clarity of certain chatbot responses could be improved, so I addressed this feedback by refining the prompts sent to the GPT-4 API and making the rule-based responses more precise and user-friendly.
 
-## 7. Conclusion and Future Work
-
-### 7.1 Summary of the work done
+## 7. Conclusion
 
 This project successfully developed a chatbot application with both GPT-4 powered and rule-based capabilities. The application is capable of:
 
