@@ -189,7 +189,7 @@ To make sure the application was high-quality and worked the way it was supposed
 
 ## 7. Conclusion and Future Work
 
-### 7.1 Summary of Achievements
+### 7.1 Summary of the work done
 
 This project successfully developed a chatbot application with both GPT-4 powered and rule-based capabilities. The application is capable of:
 
@@ -197,18 +197,3 @@ This project successfully developed a chatbot application with both GPT-4 powere
 * Providing rule-based responses for common customer support inquiries, ensuring that routine questions are handled efficiently and accurately.
 * Maintaining a history of user and chatbot interactions, which enables the application to retain conversational context and offer more personalized interactions.
 * Switching between chatbot modes as needed, adapting to the specific requirements of each conversation and optimizing the overall user experience.
-
-### 7.2 Recommendations for Future Improvements
-
-To guide the future development and enhancement of this application, I propose the following recommendations:
-
-* Implement more robust error handling and retry mechanisms for GPT-4 API calls. This will make the application more resilient to API downtime and network issues.
-* Develop a more comprehensive suite of unit tests, including tests specifically designed for the `GPT4Chatbot` and `CustomerSupportChatbot` classes. This will further ensure the reliability and correctness of these core components.
-* Implement a more secure method for managing API keys, such as using environment variables or a dedicated configuration file. This will enhance the application's security and protect sensitive credentials.
-* Expand the rule-based chatbot with additional scenarios and responses. This will broaden its applicability and enable it to handle a wider range of user queries.
-* Develop a user-friendly graphical interface, such as a web interface. This would provide a more intuitive and engaging experience for users.
-* Implement streaming responses for the GPT-4 chatbot. This would allow the chatbot to provide more immediate feedback to users, improving the perceived responsiveness of the application.
-* Incorporate memory management into the Chatbot. This would enable the chatbot to retain information from previous interactions, leading to more contextually rich and personalized conversations.
-* Explore other GPT-4 models and parameters. This could potentially lead to improvements in the chatbot's performance, accuracy, and conversational abilities.
-* Implement a logging system to provide valuable insights into the application's usage patterns, performance, and any potential issues.
-* Add input validation to improve the application's robustness and help prevent errors caused by malformed or unexpected user input.
