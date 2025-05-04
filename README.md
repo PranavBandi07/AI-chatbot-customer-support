@@ -70,12 +70,6 @@ The class diagram illustrates the relationships and interactions between the cla
 * **ChatbotFactory:** This class acts like a factory, and it's responsible for creating instances of either `GPT4Chatbot` or `CustomerSupportChatbot`. The specific type of chatbot instance that gets created depends on the chatbot type that's requested. By using the Factory pattern, the application centralizes all the object creation logic in this class. This makes the application more flexible and makes it easier to add new chatbot types in the future without having to change a bunch of other code. It's important to keep in mind that `ChatbotFactory` doesn't create `Chatbot` instances directly. Instead, it returns instances of classes that inherit from `Chatbot`.
 * **ChatSession:** This class is in charge of managing the history of the chat session. It uses the Singleton pattern, which ensures that only one instance of `ChatSession` exists throughout the application. The `ChatSession` class stores the chat history in a list, which provides an ordered record of all the interactions. It also has methods for adding to this history, saving it to a file (using the `json` library for data serialization), and loading history from a file. While `ChatSession` doesn't inherit from `Chatbot`, it does interact with `Chatbot` instances (or, more accurately, instances of its subclasses) to record the messages that are exchanged between the user and the chatbot.
 
-**To summarize:**
-
-* `GPT4Chatbot` and `CustomerSupportChatbot` are specialized *types* of `Chatbot`, inheriting its basic structure and behavior.
-* `ChatbotFactory` is responsible for *creating* instances of either `GPT4Chatbot` or `CustomerSupportChatbot`, depending on what the application needs.
-* `ChatSession` *manages* the overall chat interaction between the user and a `Chatbot` instance (or one of its subclasses), and it also takes care of storing the history of these interactions.
-
 ### 3.3 Key Algorithms and Data Structures Implemented
 
 * **GPT-4 API Interaction:**
