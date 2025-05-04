@@ -152,7 +152,6 @@ The development process involved these steps:
 7.  **Documentation:**
 
     * A `README.md` file was created to document the application.
-    * Code comments were added throughout the codebase to explain its functionality and design.
 8.  **Refinement:**
 
     * The code was refactored to improve its readability and maintainability.
